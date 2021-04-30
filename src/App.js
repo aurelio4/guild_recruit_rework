@@ -2,18 +2,17 @@ import React from 'react'
 import {
   BrowserRouter as Router,
   Switch,
-  Route,
-  Link
-} from "react-router-dom"
+  Route
+} from 'react-router-dom'
+
+import GuildCard from './components/common/GuildCard'
+import NavBar from './components/common/NavBar'
 
 const App = () => {
   return (
       <Router>
-				<ul>
-					<li><Link to='/'>Home</Link></li>
-					<li><Link to='/profile'>Profile</Link></li>
-					<li><Link to='/create-guild'>Create Guild</Link></li>
-				</ul>
+				<NavBar />
+				<GuildCard />
 
 				<Switch>
 					<Route path="/profile">

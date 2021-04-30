@@ -1,0 +1,45 @@
+body {
+	background-color: #566f8d !important;
+}
+
+/* Factions */
+
+.-alliance {
+	color: #144587 !important;
+}
+
+.-horde {
+	color: #8C1616 !important;
+}
+
+/* Guild Card */
+
+.guild-card {
+	width: 300px;
+	padding: 0 !important;
+	background-color: #7087a3 !important;
+	color: white !important;
+	border-radius: 10px !important;
+}
+
+.guild-name {
+	font-size: 1.6em;
+	line-height: 3vh;
+	text-decoration: none !important;
+	font-weight: bold;
+}
+
+.region-and-server {
+	font-size: 1.1em;
+	line-height: 2vh;
+}
+
+.guild-master {
+	font-size: 1.1em;
+	padding-top: 0px;
+	line-height: 2vh;
+}
+
+.hr-divider {
+	border: 1px solid white;
+}
