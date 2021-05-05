@@ -40,6 +40,17 @@ body {
 	line-height: 2vh;
 }
 
+.guild-pop {
+	font-size: 1.1em;
+	padding-top: 0px;
+	line-height: 2vh;
+}
+
 .hr-divider {
 	border: 1px solid white;
+}
+
+.guild-bio {
+	font-size: 1.2em;
+	color: black;
 }
